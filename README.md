@@ -8,6 +8,7 @@ The Task Manager API provides endpoints to manage tasks including creating, upda
 ## Technologies Used
 - Spring Boot 3
 - Java 21
+- PostgreSQL
 - Gradle
 - Unit Testing: JUnit 5, Mockito
 - Docker
@@ -31,4 +32,7 @@ The Task Manager API provides endpoints to manage tasks including creating, upda
 - `PUT /tasks/{id}/IN_PROGRESS`: Set a task status as in-progress.
 - `PUT /tasks/{id}/DONE`: Mark a task status as done.
 - `GET /tasks/filter/{status}`: Filter by status.
+
+## Requirments
+- Java Development Kit 21
 
